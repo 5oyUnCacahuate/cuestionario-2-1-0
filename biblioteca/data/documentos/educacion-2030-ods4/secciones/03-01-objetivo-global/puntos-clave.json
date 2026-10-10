@@ -1,0 +1,48 @@
+[
+  {
+    "titulo": "Enunciado del objetivo global",
+    "items": [
+      "Garantizar una educación inclusiva y equitativa de calidad.",
+      "Promover oportunidades de aprendizaje permanente para todos.",
+      "Aplica a todos los niveles educativos."
+    ]
+  },
+  {
+    "titulo": "Aspecto 1 — Acceso",
+    "items": [
+      "Educación primaria y secundaria: inclusiva, equitativa, gratuita y financiada con fondos públicos.",
+      "Duración: al menos 12 años, de los cuales al menos 9 obligatorios.",
+      "Al menos 1 año de educación preescolar gratuita y obligatoria.",
+      "Oportunidades para niños y jóvenes no escolarizados.",
+      "Destrezas prácticas en lectura, escritura y matemáticas para jóvenes y adultos."
+    ]
+  },
+  {
+    "titulo": "Aspecto 2 — Equidad e inclusión",
+    "items": [
+      "Hacer frente a exclusión, marginación, disparidad, vulnerabilidad y desigualdad.",
+      "Políticas públicas transformadoras que atiendan la diversidad.",
+      "Atención especial a la igualdad de género.",
+      "Una meta educativa no se cumple hasta que la alcancen todos."
+    ]
+  },
+  {
+    "titulo": "Aspecto 3 — Calidad",
+    "items": [
+      "Resultados de aprendizaje pertinentes, equitativos y eficaces.",
+      "Competencias básicas: lectura, escritura y cálculo.",
+      "Docentes con calificaciones, formación, remuneración y motivación adecuadas.",
+      "Métodos y contenidos pertinentes, uso de TIC.",
+      "Entornos seguros, sanos, inclusivos y con recursos."
+    ]
+  },
+  {
+    "titulo": "Aspecto 4 — Aprendizaje a lo largo de la vida",
+    "items": [
+      "El derecho a la educación comienza con el nacimiento y continúa toda la vida.",
+      "Se ofrece mediante modalidades formales, no formales e informales.",
+      "Aprovechamiento de las TIC para ampliar el acceso.",
+      "Enfoque holístico que abarca todos los subsectores y niveles educativos."
+    ]
+  }
+]

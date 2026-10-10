@@ -1,0 +1,33 @@
+[
+  {
+    "id": "M41-01",
+    "pregunta": "¿Qué niveles educativos contempla la Meta 4.1?",
+    "opciones": [
+      "Educación inicial y primaria",
+      "Primaria y secundaria",
+      "Solo educación universitaria",
+      "Solo formación técnica y laboral"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.1 se refiere específicamente a la enseñanza primaria y secundaria."
+  },
+  {
+    "id": "M41-02",
+    "pregunta": "¿Cuál es la duración mínima que recomienda la Meta 4.1 para la educación primaria y secundaria?",
+    "opciones": ["6 años", "9 años", "12 años", "15 años"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La Meta 4.1 establece al menos 12 años de educación primaria y secundaria, de los cuales al menos 9 deben ser obligatorios."
+  },
+  {
+    "id": "M41-03",
+    "pregunta": "¿Cuál es uno de los elementos centrales de la Meta 4.1 que va más allá del simple acceso a la escuela?",
+    "opciones": [
+      "Solo contar la cantidad de estudiantes matriculados",
+      "Garantizar que todos terminen los estudios con resultados de aprendizaje pertinentes y eficaces",
+      "Limitar la educación a la primaria",
+      "Aumentar el número de escuelas privadas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.1 no se limita al acceso: exige que todos los niños y niñas terminen la educación primaria y secundaria con resultados de aprendizaje pertinentes y eficaces."
+  }
+]

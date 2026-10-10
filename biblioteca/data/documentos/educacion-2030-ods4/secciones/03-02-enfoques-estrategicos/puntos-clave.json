@@ -1,0 +1,73 @@
+[
+  {
+    "titulo": "Cinco movilizaciones para alcanzar el ODS 4",
+    "items": [
+      "Establecer alianzas eficaces e inclusivas.",
+      "Mejorar las políticas educativas y su funcionamiento conjunto.",
+      "Garantizar sistemas educativos equitativos, inclusivos y de calidad para todos.",
+      "Movilizar recursos para financiar correctamente la educación.",
+      "Asegurar la supervisión, el seguimiento y el examen de todas las metas."
+    ]
+  },
+  {
+    "titulo": "Fortalecer las políticas, planes, legislaciones y sistemas",
+    "items": [
+      "Marcos jurídicos y normativos sólidos, basados en instrumentos internacionales.",
+      "Reforzar los sistemas educativos mediante gobernanza, rendición de cuentas, información y financiación transparente.",
+      "Aprovechar la innovación y las TIC para fortalecer los sistemas educativos.",
+      "Colaboración Sur-Sur y triangular e intercambio de mejores prácticas."
+    ]
+  },
+  {
+    "titulo": "Equidad, inclusión e igualdad de género",
+    "items": [
+      "Eliminar barreras sociales, culturales y económicas de acceso.",
+      "Políticas basadas en evidencia: transferencias de efectivo, comidas escolares, materiales, transporte, programas de segunda oportunidad.",
+      "Uso de datos desglosados para medir la desigualdad y orientar políticas.",
+      "Medidas expresas contra prejuicios y violencia de género en escuelas.",
+      "Protección especial de niñas y mujeres en trayectos y durante conflictos.",
+      "Atención específica a personas con discapacidad."
+    ]
+  },
+  {
+    "titulo": "Centrarse en la calidad y el aprendizaje",
+    "items": [
+      "Ampliar el acceso no es suficiente: hay que mejorar la calidad y la pertinencia.",
+      "Recursos adecuados, distribuidos de modo equitativo.",
+      "Instalaciones seguras, respetuosas del medio ambiente y de fácil acceso.",
+      "Docentes competentes, motivados, bien remunerados y distribuidos equitativamente.",
+      "Materiales no discriminatorios, adaptados al contexto y disponibles para todos.",
+      "Sistemas de evaluación de la calidad del aprendizaje (insumos, entornos, procesos y resultados).",
+      "Fortalecer la educación en ciencias, tecnología, ingeniería y matemáticas (STEM)."
+    ]
+  },
+  {
+    "titulo": "Promover el aprendizaje a lo largo de la vida",
+    "items": [
+      "Oportunidades para todas las edades, desde el nacimiento.",
+      "Múltiples y flexibles vías de aprendizaje.",
+      "Fortalecer vínculos entre educación formal y no formal.",
+      "Reconocer, acreditar y convalidar conocimientos adquiridos en educación no formal e informal.",
+      "Acceso equitativo y amplio a formación técnica, profesional, educación superior e investigación."
+    ]
+  },
+  {
+    "titulo": "Educación de adultos y analfabetismo",
+    "items": [
+      "Medidas especiales y mayores recursos para educandos adultos.",
+      "Atención a millones de personas analfabetas.",
+      "Oportunidades de alfabetización funcional y matemáticas básicas para jóvenes y adultos.",
+      "Enfoques intersectoriales: educación, ciencia, tecnología, empleo, migración, ciudadanía y financiación."
+    ]
+  },
+  {
+    "titulo": "Educación en situaciones de emergencia",
+    "items": [
+      "Desastres, pandemias y conflictos pueden revertir el progreso educativo.",
+      "La educación en emergencias tiene un efecto protector inmediato (supervivencia y apoyo psicosocial).",
+      "Crear sistemas educativos inclusivos, resilientes y con capacidad de reacción.",
+      "Basarse en las Normas Mínimas de la INEE (Red Interinstitucional para la Educación en Situaciones de Emergencia).",
+      "Fortalecer la capacidad de gobiernos y sociedad civil en reducción de riesgos y respuesta."
+    ]
+  }
+]

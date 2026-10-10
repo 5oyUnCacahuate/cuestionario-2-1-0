@@ -1,0 +1,50 @@
+[
+  {
+    "id": "SUP-01",
+    "pregunta": "¿En qué deben basarse el seguimiento y el examen de políticas?",
+    "opciones": [
+      "En evidencia fiable",
+      "Solo en impresiones personales",
+      "Únicamente en datos económicos",
+      "En decisiones sin evaluación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El título y el contenido de la sección destacan la evidencia."
+  },
+  {
+    "id": "SUP-02",
+    "pregunta": "¿Para qué sirve desglosar los datos educativos?",
+    "opciones": [
+      "Para ocultar diferencias",
+      "Para identificar desigualdades entre grupos",
+      "Para reducir la información disponible",
+      "Para reemplazar los indicadores"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los datos desglosados permiten detectar brechas y orientar medidas."
+  },
+  {
+    "id": "SUP-03",
+    "pregunta": "¿Cuál es la fuente oficial de datos comparables entre países sobre educación?",
+    "opciones": [
+      "El Banco Mundial",
+      "El IEU (Instituto de Estadística de la UNESCO)",
+      "El PNUD",
+      "La OCDE"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El texto señala que el IEU seguirá siendo la fuente oficial de datos comparables entre países."
+  },
+  {
+    "id": "SUP-04",
+    "pregunta": "¿Qué informe se convierte en el mecanismo de seguimiento y presentación de información sobre el ODS 4?",
+    "opciones": [
+      "El Informe de Seguimiento de la EPT en el Mundo, que pasa a ser el Informe GEM",
+      "El Informe PISA",
+      "El Informe de Desarrollo Humano",
+      "El Informe Doing Business"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Informe de Seguimiento de la EPT en el Mundo se convierte en el Informe de Seguimiento de la Educación en el Mundo (Informe GEM)."
+  }
+]

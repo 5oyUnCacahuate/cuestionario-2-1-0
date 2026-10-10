@@ -1,0 +1,40 @@
+[
+  {
+    "id": "FIN-01",
+    "pregunta": "¿Qué papel tiene la financiación externa según el marco?",
+    "opciones": [
+      "Complementa los esfuerzos nacionales",
+      "Sustituye completamente la inversión nacional",
+      "Es la única fuente admisible",
+      "No puede utilizarse para educación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El documento trata la ayuda externa como complemento de la inversión nacional."
+  },
+  {
+    "id": "FIN-02",
+    "pregunta": "¿Qué debe orientar el uso de los recursos educativos?",
+    "opciones": [
+      "Solo el gasto histórico",
+      "Eficiencia, transparencia y equidad",
+      "La distribución sin prioridades",
+      "Únicamente el número de edificios"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La financiación debe responder a prioridades y distribuirse de forma equitativa."
+  },
+  {
+    "id": "FIN-03",
+    "pregunta": "¿Qué porcentaje del PIB se recomienda asignar a la educación?",
+    "opciones": ["1% a 3%", "4% a 6%", "10% a 12%", "20% a 25%"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Agenda de Acción de Addis Abeba recomienda entre el 4% y el 6% del PIB a la educación."
+  },
+  {
+    "id": "FIN-04",
+    "pregunta": "¿Qué porcentaje de los fondos de ayuda humanitaria se destina a la educación?",
+    "opciones": ["10%", "5%", "2%", "15%"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El texto señala que solo el 2% de los fondos conseguidos mediante llamamientos de ayuda humanitaria se asignan a la educación."
+  }
+]

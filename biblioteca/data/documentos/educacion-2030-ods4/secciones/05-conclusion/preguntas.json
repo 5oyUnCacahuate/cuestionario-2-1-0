@@ -1,0 +1,38 @@
+[
+  {
+    "id": "CON-01",
+    "pregunta": "¿Qué se necesita para convertir la visión de Educación 2030 en resultados?",
+    "opciones": [
+      "Compromiso colectivo, cooperación y acciones sostenidas",
+      "Solo una declaración internacional",
+      "Eliminar el seguimiento",
+      "Actuar sin coordinación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La conclusión enfatiza el compromiso y el esfuerzo colectivo."
+  },
+  {
+    "id": "CON-02",
+    "pregunta": "Según la conclusión, ¿cuándo se podrá proclamar el éxito del ODS 4-Educación 2030?",
+    "opciones": [
+      "Cuando lo apruebe un solo país",
+      "Cuando concierna a todos",
+      "Cuando se logre solo la meta 4.1",
+      "Cuando se eliminen los indicadores"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La conclusión afirma: 'El éxito del ODS 4-Educación 2030 solo se podrá proclamar cuando concierna a todos'."
+  },
+  {
+    "id": "CON-03",
+    "pregunta": "¿Qué tipo de educación dirigida por los ciudadanos se menciona en la conclusión?",
+    "opciones": [
+      "Educación con buena gobernanza y rendición de cuentas",
+      "Educación sin financiación pública",
+      "Educación solo privada",
+      "Educación sin seguimiento"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La conclusión hace hincapié en la necesidad de una buena gobernanza y una rendición de cuentas en la educación dirigida por los ciudadanos."
+  }
+]

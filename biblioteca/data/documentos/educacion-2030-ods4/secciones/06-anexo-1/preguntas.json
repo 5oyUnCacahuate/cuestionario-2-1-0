@@ -1,0 +1,33 @@
+[
+  {
+    "id": "AN1-01",
+    "pregunta": "¿Qué presenta el Anexo I?",
+    "opciones": [
+      "Indicadores mundiales",
+      "Solo ejemplos de actividades de aula",
+      "Un plan de estudios nacional",
+      "Indicadores exclusivamente municipales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El título del Anexo I especifica que contiene indicadores mundiales."
+  },
+  {
+    "id": "AN1-02",
+    "pregunta": "¿Cuántos indicadores mundiales se propusieron para el seguimiento del ODS 4?",
+    "opciones": ["5", "7", "11", "17"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El texto señala que se propusieron 11 indicadores mundiales."
+  },
+  {
+    "id": "AN1-03",
+    "pregunta": "¿A qué meta corresponde el indicador 4.7.1?",
+    "opciones": [
+      "Educación para el desarrollo sostenible y la ciudadanía mundial",
+      "Becas para países en desarrollo",
+      "Docentes cualificados",
+      "Instalaciones educativas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El indicador 4.7.1 mide el grado de incorporación de la educación para la ciudadanía mundial y el desarrollo sostenible."
+  }
+]

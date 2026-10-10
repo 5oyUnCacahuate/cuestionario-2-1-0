@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M45-01",
+    "pregunta": "¿Qué busca principalmente la Meta 4.5?",
+    "opciones": [
+      "Eliminar disparidades y asegurar acceso igualitario a personas vulnerables",
+      "Aumentar únicamente las becas universitarias",
+      "Medir solo el gasto educativo",
+      "Construir instalaciones sin considerar accesibilidad"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.5 se centra en la equidad, la eliminación de disparidades de género y el acceso igualitario para grupos vulnerables."
+  },
+  {
+    "id": "M45-02",
+    "pregunta": "¿Cuáles de los siguientes grupos se mencionan explícitamente en la Meta 4.5?",
+    "opciones": [
+      "Solo mujeres adultas",
+      "Personas con discapacidad, pueblos indígenas y niños en vulnerabilidad",
+      "Solo estudiantes universitarios",
+      "Solo personas mayores"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.5 menciona explícitamente a las personas con discapacidad, los pueblos indígenas y los niños en situaciones de vulnerabilidad."
+  }
+]

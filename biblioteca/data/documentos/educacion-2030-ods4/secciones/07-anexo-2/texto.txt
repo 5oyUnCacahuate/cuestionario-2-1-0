@@ -1,0 +1,53 @@
+Anexo II: Marco de indicadores temáticos propuesto
+(Documento de trabajo, situación a julio de 2016)
+
+Este Anexo contiene la lista de indicadores temáticos propuestos creada por el Grupo Consultivo Técnico (TAG, por sus siglas en inglés) sobre los indicadores de la educación. El TAG está integrado por representantes de los Estados Miembros que representan a todas las regiones, organizaciones de la sociedad civil y asociados internacionales (la UNESCO, el Informe de Seguimiento de la EPT en el Mundo/Informe de Seguimiento de la Educación en el Mundo, la OCDE, el UNICEF y el Banco Mundial). Se trata de un documento de trabajo que se presentó al Grupo de Redacción de la Educación 2030 para que fuese debatido. No se tomó ninguna decisión sobre los indicadores, los cuales se actualizarán una vez que se terminen de formular los indicadores mundiales a través del proceso del Grupo Interinstitucional y de Expertos, y que el Comité de Dirección de la Educación 2030 los apruebe.
+
+Objetivo: Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos.
+
+=== Metas 4.1 a 4.7 ===
+
+Meta 4.1 — Terminar enseñanza primaria y secundaria de calidad.
+• Aprendizaje: (1) Porcentaje de niños/jóvenes con niveles mínimos de competencia en lectura y matemáticas [indicador mundial]. (2) Administración de evaluación representativa del aprendizaje a nivel nacional.
+• Finalización: (3) Tasa bruta de ingreso al último grado. (4) Tasa de finalización.
+• Participación: (5) Tasa de niños sin escolarizar. (6) Porcentaje de niños que superan la edad para el grado.
+• Prestación: (7) Número de años de educación primaria y secundaria gratuita y obligatoria.
+
+Meta 4.2 — Atención y desarrollo en la primera infancia y educación preescolar.
+• Disponibilidad: (8) Porcentaje de niños menores de 5 años con desarrollo bien encauzado [indicador mundial]. (9) Porcentaje de niños menores de 5 años con entornos de aprendizaje positivos en el hogar.
+• Participación: (10) Tasa de participación en aprendizaje organizado [indicador mundial]. (11) Tasa bruta de matriculación en preescolar.
+• Prestación: (12) Número de años de educación preescolar gratuita y obligatoria.
+
+Meta 4.3 — Acceso igualitario a formación técnica, profesional y superior.
+• Participación: (13) Tasa bruta de matriculación en enseñanza superior. (14) Tasa de participación en programas profesionales y técnicos. (15) Tasa de participación de jóvenes y adultos en educación formal y no formal [indicador mundial].
+
+Meta 4.4 — Competencias para el empleo y el emprendimiento.
+• Competencias: (16.1) Nivel mínimo de competencia en alfabetización digital. (16.2) Conocimientos de TIC [indicador mundial]. (17) Tasa de logros educativos de jóvenes y adultos.
+
+Meta 4.5 — Eliminación de disparidades de género y acceso igualitario.
+• Metas transversales de equidad: Índices de paridad para todos los indicadores desglosables [indicador mundial].
+• Políticas: (18) Porcentaje de estudiantes cuya lengua materna corresponde a la lengua de instrucción. (19) Políticas que reasignan recursos a segmentos desfavorecidos. (20) Gastos en educación por estudiante. (21) Porcentaje de ayuda total para educación destinada a países de bajos ingresos.
+
+Meta 4.6 — Alfabetización y aritmética de jóvenes y adultos.
+• Competencias: (22) Porcentaje de población con nivel fijo de competencia funcional en alfabetización y aritmética [indicador mundial]. (23) Tasa de alfabetización de jóvenes y adultos.
+• Prestación: (24) Tasa de participación en programas de alfabetización.
+
+Meta 4.7 — Educación para el desarrollo sostenible y la ciudadanía mundial.
+• Prestación: (25) Grado de incorporación de la educación para la ciudadanía mundial y el desarrollo sostenible en políticas, planes de estudio, formación docente y evaluación [indicador mundial].
+• Conocimientos: (26) Porcentaje de alumnos con comprensión adecuada de temas de sostenibilidad y ciudadanía mundial. (27) Porcentaje de estudiantes de 15 años con dominio de geociencias y ciencias ambientales.
+• Oferta: (28) Porcentaje de escuelas que imparten educación sobre sexualidad y VIH. (29) Aplicación nacional del Programa Mundial para la educación en derechos humanos.
+
+=== Medios de aplicación (Metas 4.a a 4.c) ===
+
+Meta 4.a — Instalaciones educativas.
+• Recursos: (30) Porcentaje de escuelas con acceso a agua potable, saneamiento separado y lavado de manos [indicador mundial]. (31) Porcentaje de escuelas con electricidad, Internet y computadoras [indicador mundial]. (32) Porcentaje de escuelas con infraestructura adaptada a estudiantes con discapacidad [indicador mundial].
+• Entorno: (33) Porcentaje de estudiantes que experimentan acoso, castigos corporales, hostigamiento, violencia, discriminación sexual y abusos. (34) Número de ataques a estudiantes, personal e instituciones.
+
+Meta 4.b — Becas.
+• Número: (35) Número de becas de educación superior otorgadas por país beneficiario. (36) Volumen de la AOD destinada a becas [indicador mundial].
+
+Meta 4.c — Docentes cualificados.
+• Calificación: (37) Porcentaje de docentes calificados según normas nacionales. (38) Porcentaje de alumnos por docente calificado.
+• Formados: (39) Porcentaje de docentes con formación docente mínima [indicador mundial]. (40) Porcentaje de alumnos por docente formado.
+• Motivados: (41) Salario medio de los docentes en relación con otras profesiones comparables. (42) Tasa de abandono de docentes.
+• Respaldados: (43) Porcentaje de docentes que han recibido formación en el empleo en los últimos 12 años.

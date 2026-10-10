@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M42-01",
+    "pregunta": "¿Cuál es el propósito de la educación preescolar de calidad en la Meta 4.2?",
+    "opciones": [
+      "Preparar a los niños para la enseñanza primaria",
+      "Sustituir la educación primaria",
+      "Evaluar únicamente a las familias",
+      "Limitar el aprendizaje al hogar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.2 relaciona la atención y educación de la primera infancia con la preparación para la enseñanza primaria."
+  },
+  {
+    "id": "M42-02",
+    "pregunta": "¿Qué servicios debe abarcar la atención integral en la primera infancia según la Meta 4.2?",
+    "opciones": [
+      "Solo educación preescolar",
+      "Salud, nutrición, protección y educación",
+      "Solo cuidado en el hogar",
+      "Solo estimulación temprana sin educación"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.2 promueve una atención integral que articula salud, nutrición, protección y educación en la primera infancia."
+  }
+]

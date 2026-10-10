@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preparación para el examen de Directivos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="board" id="board">
+
+    <!-- Cabecera: título en setup, stats en playing -->
+    <header class="board__header">
+      <div class="board__titles" id="boardTitles">
+        <p class="board__title">CUESTIONARIO</p>
+        <p class="board__subtitle">Preparación para el examen de Directivos</p>
+      </div>
+      <div class="board__stats" id="boardStats" hidden>
+        <div class="stat">
+          <span class="stat__label">Pregunta</span>
+          <span class="stat__value" id="counter">01<span class="stat__of">/05</span></span>
+        </div>
+        <div class="stat">
+          <span class="stat__label">Puntos</span>
+          <span class="stat__value" id="score">000</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="board__progress">
+      <div class="board__progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Navegación entre vistas -->
+        <nav class="nav">
+      <button class="nav__btn is-active" data-view="quiz">Cuestionario</button>
+      <button class="nav__btn" data-view="stats">Estadísticas</button>
+      <button class="nav__btn" data-view="history">Historial</button>
+      <button class="nav__btn" data-view="reports">Reportes <span class="nav__badge" id="reportsBadge" hidden>0</span></button>
+      <a href="biblioteca/index.html" class="nav__btn nav__btn--link">📚 Biblioteca</a>
+    </nav>
+
+    <!-- Pantalla de carga inicial -->
+    <section class="screen screen--loading" id="loadingScreen" data-screen="quiz">
+      <p class="loading-text">Cargando preguntas…</p>
+    </section>
+
+    <!-- Pantalla de error si falla la carga -->
+    <section class="screen screen--error" id="errorScreen" data-screen="quiz" hidden>
+      <h2 class="panel-title">No se pudieron cargar las preguntas</h2>
+      <p class="error-text" id="errorText">
+        Si estás abriendo el archivo directamente (file://), el navegador no puede leer el JSON por seguridad.
+        Abre el proyecto con "Live Server" o un servidor local.
+      </p>
+    </section>
+
+      <!-- Pantalla de configuración de sesión -->
+    <section class="screen screen--setup" id="setupScreen" data-screen="quiz" hidden>
+
+      <!-- 1. Bibliografía (destacado) -->
+      <h2 class="panel-title">1 · Bibliografía</h2>
+      <div class="setup-highlight" id="sourceHighlight">
+        <div class="source-selector" id="sourceSelector">
+          <button class="source-selector__trigger" id="sourceTrigger" type="button" aria-haspopup="listbox" aria-expanded="false">
+            <span class="source-selector__icon">📚</span>
+            <span class="source-selector__body">
+              <span class="source-selector__name" id="sourceTriggerName">Todas las bibliografías</span>
+              <span class="source-selector__count" id="sourceTriggerCount">— preguntas</span>
+            </span>
+            <span class="source-selector__arrow">▼</span>
+          </button>
+          <div class="source-selector__dropdown" id="sourceDropdown" role="listbox" hidden>
+            <!-- Se rellena desde script.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- 2. Modo de estudio -->
+      <h2 class="panel-title">2 · Modo de estudio</h2>
+      <div class="mode-grid" id="modeGrid">
+        <button class="mode-card is-active" data-mode="smart" type="button">
+          <span class="mode-card__title">Estudio inteligente</span>
+          <span class="mode-card__desc">Prioriza las preguntas que más necesitas practicar.</span>
+        </button>
+        <button class="mode-card" data-mode="all" type="button">
+          <span class="mode-card__title">Todas las preguntas</span>
+          <span class="mode-card__desc">Recorre el banco completo, sin importar el nivel.</span>
+        </button>
+        <button class="mode-card" data-mode="errors" type="button">
+          <span class="mode-card__title">Solo errores</span>
+          <span class="mode-card__desc">Repasa preguntas que hayas fallado (se olvidan tras 3 aciertos seguidos).</span>
+        </button>
+        <button class="mode-card" data-mode="simulacro" type="button">
+          <span class="mode-card__title">⏱ Simulacro</span>
+          <span class="mode-card__desc">Practica como si fuera un examen real, con tiempo límite.</span>
+        </button>
+      </div>
+
+      <!-- Filtro por rango de nivel (aplica a smart y simulacro) -->
+      <div id="levelFilterBlock">
+        <h2 class="panel-title">Rango de nivel</h2>
+        <div class="filter-grid" id="levelFilterGrid">
+          <button class="filter-btn is-active" data-level="all" type="button">Todas</button>
+          <button class="filter-btn" data-level="new" type="button">Solo nuevas</button>
+          <button class="filter-btn" data-level="reinforce" type="button">Refuerzo</button>
+          <button class="filter-btn" data-level="not-mastered" type="button">No dominadas</button>
+          <button class="filter-btn" data-level="mastered" type="button">Solo dominadas</button>
+        </div>
+      </div>
+
+      <!-- Tipo de simulacro (solo visible cuando modo = simulacro) -->
+      <div id="simulacroTypeBlock" hidden>
+        <h2 class="panel-title">Tipo de simulacro</h2>
+        <div class="simulacro-grid" id="simulacroGrid">
+          <button class="simulacro-btn" data-simulacro="rapida" type="button">
+            <span class="simulacro-btn__name">Rápida</span>
+            <span class="simulacro-btn__meta">5 preguntas · 2.5 min</span>
+          </button>
+          <button class="simulacro-btn" data-simulacro="media" type="button">
+            <span class="simulacro-btn__name">Media</span>
+            <span class="simulacro-btn__meta">10 preguntas · 5 min</span>
+          </button>
+          <button class="simulacro-btn" data-simulacro="examen" type="button">
+            <span class="simulacro-btn__name">Examen</span>
+            <span class="simulacro-btn__meta">20 preguntas · 15 min</span>
+          </button>
+          <button class="simulacro-btn" data-simulacro="extensa" type="button">
+            <span class="simulacro-btn__name">Extensa</span>
+            <span class="simulacro-btn__meta">30 preguntas · 25 min</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3. Cantidad (destacado, solo visible en modos no-simulacro) -->
+      <div id="amountBlock">
+        <h2 class="panel-title">3 · Cantidad de preguntas</h2>
+        <div class="amount-card" id="amountCard">
+          <p class="amount-card__count" id="sourceCount">— preguntas disponibles</p>
+          <div class="amount-grid" id="amountGrid">
+            <!-- Se rellena dinámicamente desde script.js -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Aviso y botón de inicio -->
+      <p class="setup-warning" id="setupWarning" hidden></p>
+
+      <div class="actions">
+        <button class="btn btn--primary" id="startSessionBtn">Comenzar sesión</button>
+      </div>
+    </section>
+
+    <!-- Pantalla de pregunta -->
+    <section class="screen" id="quizScreen" data-screen="quiz" hidden>
+      <div class="question-header">
+        <p class="level-badge" id="levelBadge" hidden></p>
+        <button class="report-link" id="reportQuestionBtn" type="button" title="Reportar un problema con esta pregunta">
+          ⚠ Reportar
+        </button>
+      </div>
+
+      <h1 class="question" id="questionText">Cargando pregunta…</h1>
+
+      <div class="options" id="optionsList"></div>
+
+      <div class="feedback" id="feedback" hidden>
+        <p class="feedback__verdict" id="feedbackVerdict"></p>
+        <p class="feedback__explanation" id="feedbackExplanation"></p>
+      </div>
+
+      <div class="actions actions--quiz">
+        <button class="btn btn--danger btn--finish" id="finishSessionBtn">
+          Terminar intento
+        </button>
+
+        <button class="btn btn--primary" id="answerBtn" disabled>
+          Responder
+        </button>
+
+        <button class="btn btn--primary" id="nextBtn" hidden>
+          Siguiente pregunta →
+        </button>
+      </div>
+    </section>
+
+
+    <!-- Pantalla de Simulacro -->
+    <section class="screen screen--simulacro" id="simulacroScreen" data-screen="quiz" hidden>
+
+      <!-- Header del simulacro -->
+      <div class="simulacro-header">
+        <div class="simulacro-timer" id="simulacroTimer">
+          <span class="simulacro-timer__icon">⏱</span>
+          <span class="simulacro-timer__value" id="simulacroTimerValue">00:00</span>
+        </div>
+        <div class="simulacro-header__info">
+          <span class="simulacro-header__label" id="simulacroTypeLabel">SIMULACRO · RÁPIDA</span>
+          <span class="simulacro-header__counter" id="simulacroCounter">Pregunta 1/5</span>
+        </div>
+      </div>
+
+      <!-- Barra de progreso -->
+      <div class="board__progress">
+        <div class="board__progress-fill" id="simulacroProgressFill"></div>
+      </div>
+
+      <!-- Pregunta -->
+      <div class="question-header">
+        <p class="level-badge" id="simulacroLevelBadge" hidden></p>
+        <button class="report-link" id="simulacroReportBtn" type="button" title="Reportar un problema con esta pregunta">
+          ⚠ Reportar
+        </button>
+      </div>
+
+      <h1 class="question" id="simulacroQuestionText">Cargando pregunta…</h1>
+
+      <div class="options" id="simulacroOptionsList"></div>
+
+      <!-- Botón de marcar -->
+      <div class="simulacro-flag-row">
+        <button class="simulacro-flag-btn" id="simulacroFlagBtn" type="button">
+          <span class="simulacro-flag-btn__icon">🚩</span>
+          <span class="simulacro-flag-btn__text" id="simulacroFlagText">Marcar para revisar</span>
+        </button>
+      </div>
+
+      <!-- Navegador de preguntas -->
+      <div class="simulacro-navigator">
+        <h2 class="panel-title">Navegador de preguntas</h2>
+        <div class="simulacro-navigator__grid" id="simulacroNavigatorGrid"></div>
+        <div class="simulacro-navigator__legend">
+          <span class="simulacro-legend"><span class="simulacro-legend__dot simulacro-legend__dot--answered"></span> Respondida</span>
+          <span class="simulacro-legend"><span class="simulacro-legend__dot simulacro-legend__dot--unanswered"></span> Sin responder</span>
+          <span class="simulacro-legend"><span class="simulacro-legend__dot simulacro-legend__dot--flagged"></span> Marcada</span>
+          <span class="simulacro-legend"><span class="simulacro-legend__dot simulacro-legend__dot--current"></span> Actual</span>
+        </div>
+      </div>
+
+      <!-- Controles -->
+      <div class="simulacro-controls">
+        <div class="simulacro-controls__left">
+          <button class="btn simulacro-control-btn" id="simulacroPauseBtn" type="button">
+            <span>⏸</span> Pausar
+          </button>
+          <button class="btn simulacro-control-btn simulacro-control-btn--danger" id="simulacroFinishBtn" type="button">
+            <span>⏹</span> Terminar
+          </button>
+        </div>
+        <div class="simulacro-controls__right">
+          <button class="btn simulacro-control-btn" id="simulacroPrevBtn" type="button" disabled>
+            <span>⏮</span> Volver
+          </button>
+          <button class="btn btn--primary" id="simulacroNextBtn" type="button">
+            Siguiente <span>⏭</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Overlay de pausa -->
+    <div class="simulacro-pause-overlay" id="simulacroPauseOverlay" hidden>
+      <div class="simulacro-pause-modal">
+        <h2 class="simulacro-pause-modal__title">⏸ Simulacro pausado</h2>
+        <p class="simulacro-pause-modal__text">El temporizador está detenido. Podés reanudar cuando quieras.</p>
+        <button class="btn btn--primary" id="simulacroResumeBtn" type="button">▶ Reanudar</button>
+      </div>
+    </div>
+
+    <!-- Modal de confirmación para terminar -->
+    <div class="modal" id="simulacroFinishModal" hidden>
+      <div class="modal__backdrop" data-close-finish-modal></div>
+      <div class="modal__content" role="dialog" aria-modal="true">
+        <h3 class="modal__title">¿Terminar el simulacro?</h3>
+        <p class="modal__question" id="simulacroFinishSummary">—</p>
+        <div class="modal__actions">
+          <button class="btn" id="simulacroCancelFinishBtn" type="button">Cancelar</button>
+          <button class="btn btn--primary" id="simulacroConfirmFinishBtn" type="button">Terminar simulacro</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Pantalla de resultado final -->
+    <section class="screen screen--result" id="resultScreen" data-screen="quiz" hidden>
+      <p class="result__eyebrow">Resultado final</p>
+      <p class="result__score" id="finalScore">0/0</p>
+      <p class="result__message" id="resultMessage"></p>
+
+      <div class="result__actions">
+        <button class="btn" id="repeatSessionBtn">Repetir estas preguntas</button>
+        <button class="btn btn--primary" id="restartBtn">Elegir otra sesión</button>
+      </div>
+    </section>
+
+        <!-- Pantalla de resultado final de SIMULACRO -->
+    <section class="screen screen--simulacro-result" id="simulacroResultScreen" data-screen="quiz" hidden>
+      <p class="result__eyebrow">Resultado del simulacro</p>
+      <p class="result__score" id="simulacroResultScore">0/0</p>
+
+      <!-- Grid de desglose -->
+      <div class="simulacro-result-grid">
+        <div class="simulacro-result-card">
+          <span class="simulacro-result-card__value" id="simulacroResultCorrect">0</span>
+          <span class="simulacro-result-card__label">Correctas</span>
+        </div>
+        <div class="simulacro-result-card">
+          <span class="simulacro-result-card__value" id="simulacroResultIncorrect">0</span>
+          <span class="simulacro-result-card__label">Incorrectas</span>
+        </div>
+        <div class="simulacro-result-card">
+          <span class="simulacro-result-card__value" id="simulacroResultUnanswered">0</span>
+          <span class="simulacro-result-card__label">Sin responder</span>
+        </div>
+        <div class="simulacro-result-card">
+          <span class="simulacro-result-card__value" id="simulacroResultTime">0:00</span>
+          <span class="simulacro-result-card__label">Tiempo usado</span>
+        </div>
+      </div>
+
+      <p class="simulacro-result-message" id="simulacroResultMessage"></p>
+
+      <div class="result__actions">
+        <button class="btn" id="simulacroRepeatBtn">Repetir este simulacro</button>
+        <button class="btn btn--primary" id="simulacroNewBtn">Elegir otro simulacro</button>
+      </div>
+    </section>
+
+    <!-- Pantalla de estadísticas -->
+    <section class="screen screen--stats" id="statsScreen" hidden>
+      <h2 class="panel-title">Resumen general</h2>
+      <div class="stats-grid" id="statsSummaryGrid"></div>
+
+      <h2 class="panel-title">Nivel de dominio por pregunta</h2>
+      <div class="stats-grid" id="statsLevelGrid"></div>
+
+      <button class="btn btn--danger" id="resetBtn">Reiniciar progreso</button>
+    </section>
+
+    <!-- Pantalla de historial -->
+    <section class="screen screen--history" id="historyScreen" hidden>
+      <h2 class="panel-title">Historial de sesiones</h2>
+      <div class="history-list" id="historyList"></div>
+    </section>
+
+    <!-- Pantalla de reportes -->
+    <section class="screen screen--reports" id="reportsScreen" hidden>
+      <h2 class="panel-title">Reportes de preguntas</h2>
+      <p class="reports-hint" id="reportsHint">
+        Aquí verás los reportes que hayas enviado sobre preguntas o respuestas.
+        Puedes copiarlos como texto para enviarlos a quien revisa el banco.
+      </p>
+
+      <div class="actions actions--reports">
+        <button class="btn btn--primary" id="copyReportsBtn" type="button" hidden>
+          Copiar todos los reportes
+        </button>
+        <button class="btn btn--danger" id="clearReportsBtn" type="button" hidden>
+          Borrar todos los reportes
+        </button>
+      </div>
+
+      <div class="reports-list" id="reportsList"></div>
+    </section>
+
+  </main>
+
+  <!-- Modal de reporte -->
+  <div class="modal" id="reportModal" hidden>
+    <div class="modal__backdrop" data-close-modal></div>
+    <div class="modal__content" role="dialog" aria-modal="true" aria-labelledby="reportModalTitle">
+      <h3 class="modal__title" id="reportModalTitle">Reportar pregunta</h3>
+
+      <p class="modal__question" id="reportQuestionPreview"></p>
+
+      <label class="modal__label" for="reportType">
+        Tipo de problema
+        <select id="reportType" class="modal__select">
+          <option value="respuesta-incorrecta">La respuesta correcta está mal</option>
+          <option value="pregunta-confusa">La pregunta está mal formulada</option>
+          <option value="explicacion-incorrecta">La explicación es incorrecta</option>
+          <option value="ortografia">Error de ortografía o redacción</option>
+          <option value="otro">Otro</option>
+        </select>
+      </label>
+
+      <label class="modal__label" for="reportComment">
+        Comentario (opcional)
+        <textarea id="reportComment" class="modal__textarea" rows="4" placeholder="Cuéntanos qué está mal o qué habría que corregir…"></textarea>
+      </label>
+
+      <div class="modal__actions">
+        <button class="btn" id="cancelReportBtn" type="button">Cancelar</button>
+        <button class="btn btn--primary" id="submitReportBtn" type="button">Enviar reporte</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="selection-engine.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

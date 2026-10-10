@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M46-01",
+    "pregunta": "¿Qué aprendizajes aborda la Meta 4.6?",
+    "opciones": [
+      "Alfabetización y nociones elementales de aritmética",
+      "Solo competencias digitales avanzadas",
+      "Únicamente idiomas extranjeros",
+      "Solo formación universitaria"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.6 menciona explícitamente la alfabetización y las competencias numéricas básicas."
+  },
+  {
+    "id": "M46-02",
+    "pregunta": "¿A qué grupos de población está dirigida la Meta 4.6?",
+    "opciones": [
+      "Solo a niños de primaria",
+      "A todos los jóvenes y a una proporción sustancial de adultos",
+      "Solo a personas jubiladas",
+      "Solo a docentes"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.6 está dirigida a todos los jóvenes y a una proporción sustancial de adultos, tanto hombres como mujeres."
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M44-01",
+    "pregunta": "¿Para qué deben servir las competencias contempladas en la Meta 4.4?",
+    "opciones": [
+      "Para el empleo, el trabajo decente y el emprendimiento",
+      "Solo para aprobar exámenes escolares",
+      "Únicamente para actividades domésticas",
+      "Para sustituir la formación profesional"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.4 vincula las competencias con el empleo, el trabajo decente y el emprendimiento."
+  },
+  {
+    "id": "M44-02",
+    "pregunta": "¿A qué grupos de población está dirigida principalmente la Meta 4.4?",
+    "opciones": [
+      "Solo a niños de primaria",
+      "A jóvenes y adultos",
+      "Solo a docentes",
+      "Solo a personas jubiladas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.4 busca aumentar las competencias de jóvenes y adultos para mejorar su acceso al empleo y al emprendimiento."
+  }
+]

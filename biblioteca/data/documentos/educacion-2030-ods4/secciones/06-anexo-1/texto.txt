@@ -1,0 +1,37 @@
+Anexo I: Indicadores mundiales propuestos
+(Situación a julio de 2016)
+
+Los 11 indicadores mundiales propuestos para el seguimiento del ODS 4 fueron elaborados por el Grupo Interinstitucional y de Expertos sobre los Indicadores de los ODS y aprobados por la Comisión de Estadística de las Naciones Unidas en su 47º periodo de sesiones en marzo de 2016. El Consejo Económico y Social tomó nota del informe de la Comisión de Estadística en la serie de sesiones de coordinación y gestión celebrada en junio de 2016. El informe fue presentado a la Asamblea General de las Naciones Unidas para su examen. Estos 11 indicadores mundiales representan el conjunto mínimo de indicadores propuestos a los países para el seguimiento mundial de las metas del ODS 4.
+
+Objetivo 4: Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos.
+
+Meta 4.1 — De aquí a 2030, asegurar que todas las niñas y todos los niños terminen la enseñanza primaria y secundaria, que ha de ser gratuita, equitativa y de calidad y producir resultados de aprendizaje pertinentes y efectivos.
+4.1.1 — Porcentaje de niños y jóvenes: a) en los grados 2/3; b) al final de la enseñanza primaria; y c) al final del primer ciclo de la enseñanza secundaria, que han alcanzado al menos un nivel mínimo de competencia en i) lectura y ii) matemáticas, por sexo.
+
+Meta 4.2 — De aquí a 2030, asegurar que todas las niñas y todos los niños tengan acceso a servicios de atención y desarrollo en la primera infancia y educación preescolar de calidad, a fin de que estén preparados para la enseñanza primaria.
+4.2.1 — Porcentaje de niños menores de 5 años cuyo desarrollo se encuentra bien encauzado en cuanto a la salud, el aprendizaje y el bienestar psicosocial, por sexo.
+4.2.2 — Tasa de participación en el aprendizaje organizado (un año antes de la edad oficial de ingreso en la enseñanza primaria), por sexo.
+
+Meta 4.3 — De aquí a 2030, asegurar el acceso igualitario de todos los hombres y las mujeres a una formación técnica, profesional y superior de calidad, incluida la enseñanza universitaria.
+4.3.1 — Tasa de participación de jóvenes y adultos en la educación y la formación formales y no formales en los últimos 12 meses, por sexo.
+
+Meta 4.4 — De aquí a 2030, aumentar considerablemente el número de jóvenes y adultos que tienen las competencias necesarias, en particular técnicas y profesionales, para acceder al empleo, el trabajo decente y el emprendimiento.
+4.4.1 — Porcentaje de jóvenes y adultos con conocimientos de tecnología de la información y las comunicaciones (TIC), por tipo de conocimiento técnico.
+
+Meta 4.5 — De aquí a 2030, eliminar las disparidades de género en la educación y asegurar el acceso igualitario a todos los niveles de la enseñanza y la formación profesional para las personas vulnerables, incluidas las personas con discapacidad, los pueblos indígenas y los niños en situación de vulnerabilidad.
+4.5.1 — Índices de paridad (mujeres/hombres, zonas rurales/urbanas, quintil superior/inferior de riqueza y otros, como la situación de discapacidad, los pueblos indígenas y los efectos de conflictos, a medida que se disponga de datos) para todos los indicadores de educación de esta lista que puedan desglosarse.
+
+Meta 4.6 — De aquí a 2030, asegurar que todos los jóvenes y una proporción considerable de los adultos, tanto hombres como mujeres, estén alfabetizados y tengan nociones elementales de aritmética.
+4.6.1 — Porcentaje de población en un grupo de edad determinado que alcanza por lo menos un nivel fijo de competencia funcional en a) alfabetización y b) aritmética, por sexo.
+
+Meta 4.7 — De aquí a 2030, asegurar que todos los alumnos adquieran los conocimientos teóricos y prácticos necesarios para promover el desarrollo sostenible, entre otras cosas mediante la educación para el desarrollo sostenible y los estilos de vida sostenibles, los derechos humanos, la igualdad de género, la promoción de una cultura de paz y no violencia, la ciudadanía mundial y la valoración de la diversidad cultural y la contribución de la cultura al desarrollo sostenible.
+4.7.1 — Grado de incorporación de i) la educación para la ciudadanía mundial y ii) la educación para el desarrollo sostenible, comprendidos la igualdad de género y los derechos humanos, en todos los niveles en: a) las políticas de educación nacionales; b) los planes y programas de estudios; c) la formación de docentes; y d) la evaluación de los estudiantes.
+
+Meta 4.a — De aquí a 2030, construir y adecuar instalaciones educativas que tengan en cuenta las necesidades de los niños y las personas con discapacidad y las diferencias de género, y que ofrezcan entornos de aprendizaje seguros, no violentos, inclusivos y eficaces para todos.
+4.a.1 — Porcentaje de escuelas con acceso a: a) electricidad; b) Internet con fines pedagógicos; c) computadoras con fines pedagógicos; d) infraestructura y materiales adaptados a los estudiantes con discapacidad; e) agua potable básica; f) instalaciones de saneamiento básicas separadas para hombres y mujeres; y g) instalaciones básicas para lavarse las manos (según las definiciones de Agua, Saneamiento e Higiene para Todos (WASH)).
+
+Meta 4.b — De aquí a 2020, aumentar considerablemente a nivel mundial el número de becas disponibles para los países en desarrollo, en particular los países menos adelantados, los pequeños Estados insulares en desarrollo y los países africanos, a fin de que sus estudiantes puedan matricularse en programas de enseñanza superior, incluidos programas de formación profesional y programas técnicos, científicos, de ingeniería y de tecnología de la información y las comunicaciones, de países desarrollados y otros países en desarrollo.
+4.b.1 — Volumen de la asistencia oficial para el desarrollo destinada a becas, por sector y por tipo de estudios.
+
+Meta 4.c — De aquí a 2030, aumentar considerablemente la oferta de docentes calificados, incluso mediante la cooperación internacional para la formación de docentes en los países en desarrollo, especialmente los países menos adelantados y los pequeños Estados insulares en desarrollo.
+4.c.1 — Porcentaje de docentes en: a) enseñanza preescolar; b) primaria; c) primer ciclo de secundaria; y d) segundo ciclo de secundaria que han recibido al menos el mínimo de formación docente organizada (por ejemplo, formación pedagógica), inicial o durante el empleo, necesaria para la docencia en un nivel pertinente en un país determinado.

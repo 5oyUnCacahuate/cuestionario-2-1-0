@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GOB-01",
+    "pregunta": "¿Quién tiene la responsabilidad principal de dirigir la educación?",
+    "opciones": [
+      "Los gobiernos",
+      "Únicamente los organismos internacionales",
+      "Solo las familias",
+      "Exclusivamente el sector privado"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El documento atribuye a los gobiernos la responsabilidad principal."
+  },
+  {
+    "id": "GOB-02",
+    "pregunta": "¿Qué aportan la transparencia y la rendición de cuentas?",
+    "opciones": [
+      "Reducen la participación",
+      "Ayudan a clarificar responsabilidades y supervisar resultados",
+      "Eliminan la necesidad de datos",
+      "Sustituyen las políticas educativas"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Permiten examinar responsabilidades y resultados de la aplicación."
+  },
+  {
+    "id": "GOB-03",
+    "pregunta": "¿Cuál de estos actores es considerado 'asociado fundamental por derecho propio' en el diálogo sobre políticas?",
+    "opciones": [
+      "Los docentes y educadores y sus organizaciones",
+      "Solo los donantes internacionales",
+      "Únicamente las fundaciones privadas",
+      "Solo los ministerios de economía"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El documento señala que los docentes y sus organizaciones son asociados fundamentales y deben participar en todas las fases de la política educativa."
+  }
+]

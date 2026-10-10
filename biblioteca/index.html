@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biblioteca - Preparación para el examen de Directivos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- =============================================
+       VISTA 1: Lista de documentos
+  ============================================== -->
+  <main class="board" id="listView">
+    <header class="board__header">
+      <div class="board__titles">
+        <p class="board__title">BIBLIOTECA</p>
+        <p class="board__subtitle">Documentos para el examen de Directivos</p>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <a href="../index.html" class="nav__btn nav__btn--link">← Cuestionario</a>
+      <button class="nav__btn is-active" data-view="library">Biblioteca</button>
+    </nav>
+
+    <section class="screen">
+      <h2 class="panel-title">Documentos disponibles</h2>
+      <div class="doc-grid" id="docGrid">
+        <!-- Los documentos se cargan desde script.js -->
+      </div>
+    </section>
+  </main>
+
+  <!-- =============================================
+       VISTA 2: Lector de documento
+  ============================================== -->
+  <main class="board board--reader" id="readerView" hidden>
+    <header class="board__header">
+      <div class="board__titles">
+        <p class="board__title">BIBLIOTECA</p>
+        <p class="board__subtitle" id="readerTitle">Cargando…</p>
+      </div>
+    </header>
+
+    <nav class="nav">
+      <button class="nav__btn" id="backToLibraryBtn" type="button">← Biblioteca</button>
+      <button class="nav__btn" id="openPdfBtn" type="button">📄 Ver PDF</button>
+    </nav>
+
+    <div class="reader-layout">
+      <!-- Sidebar: índice -->
+      <aside class="reader-sidebar">
+        <h2 class="panel-title">Índice</h2>
+        <ul class="index-list" id="indexList">
+          <!-- Se carga desde script.js -->
+        </ul>
+      </aside>
+
+      <!-- Contenido principal con tabs -->
+      <article class="reader-main">
+        <!-- Tabs -->
+        <div class="tabs-nav" id="tabsNav">
+          <button class="tab-btn is-active" data-tab="texto" type="button">📖 Texto</button>
+          <button class="tab-btn" data-tab="resumen" type="button">📝 Resumen</button>
+          <button class="tab-btn" data-tab="clave" type="button">🔑 Clave</button>
+          <button class="tab-btn" data-tab="preguntas" type="button">❓ Preguntas</button>
+        </div>
+
+        <!-- Área de contenido -->
+        <div class="reader-content" id="readerContent">
+          <p class="empty-state">Seleccioná una sección del índice para empezar a leer.</p>
+        </div>
+      </article>
+    </div>
+
+    <!-- =============================================
+         Barra de reproducción TTS
+    ============================================== -->
+    <div class="tts-bar" id="ttsBar">
+      <button class="tts-btn tts-btn--play" id="ttsPlayBtn" type="button">
+        <span class="tts-btn__icon">▶</span>
+        <span class="tts-btn__text">Escuchar</span>
+      </button>
+
+      <button class="tts-btn" id="ttsPauseBtn" type="button" hidden>
+        <span class="tts-btn__icon">⏸</span>
+        <span class="tts-btn__text">Pausar</span>
+      </button>
+
+      <button class="tts-btn tts-btn--stop" id="ttsStopBtn" type="button" hidden>
+        <span class="tts-btn__icon">⏹</span>
+        <span class="tts-btn__text">Detener</span>
+      </button>
+
+      <div class="tts-speed">
+        <label for="ttsSpeedSelect">Velocidad</label>
+        <select id="ttsSpeedSelect" class="tts-select">
+          <option value="0.75">0.75x</option>
+          <option value="1" selected>1.0x</option>
+          <option value="1.25">1.25x</option>
+          <option value="1.5">1.5x</option>
+          <option value="2">2.0x</option>
+        </select>
+      </div>
+    </div>
+  </main>
+
+  <!-- =============================================
+       MODAL: Visor de PDF
+  ============================================== -->
+  <div class="modal-pdf" id="pdfModal" hidden>
+    <div class="modal-pdf__backdrop" data-close-pdf></div>
+    <div class="modal-pdf__content">
+      <div class="modal-pdf__header">
+        <p class="modal-pdf__title" id="pdfModalTitle">PDF del documento</p>
+        <button class="modal-pdf__close" id="closePdfBtn" type="button">✕</button>
+      </div>
+      <iframe class="modal-pdf__iframe" id="pdfFrame" src="" allow="autoplay"></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M43-01",
+    "pregunta": "¿Qué principio de acceso destaca la Meta 4.3?",
+    "opciones": [
+      "Acceso igualitario de mujeres y hombres",
+      "Acceso solo para adultos empleados",
+      "Acceso condicionado al género",
+      "Acceso solo a formación no formal"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.3 exige el acceso igualitario de mujeres y hombres a la formación técnica, profesional y superior."
+  },
+  {
+    "id": "M43-02",
+    "pregunta": "¿Qué tipo de formación incluye la Meta 4.3 además de la técnica y profesional?",
+    "opciones": [
+      "Educación primaria",
+      "Educación superior, incluida la universitaria",
+      "Solo educación preescolar",
+      "Solo alfabetización"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.3 incluye explícitamente la educación superior y la enseñanza universitaria."
+  }
+]

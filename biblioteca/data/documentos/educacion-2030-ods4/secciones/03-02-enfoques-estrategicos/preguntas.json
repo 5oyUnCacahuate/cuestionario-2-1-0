@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ENF-01",
+    "pregunta": "¿Qué favorece la aplicación eficaz del ODS 4 según los enfoques estratégicos?",
+    "opciones": [
+      "Acciones aisladas sin coordinación",
+      "Políticas coherentes, planificación y coordinación",
+      "Eliminar el seguimiento y la evaluación",
+      "Delegar toda la responsabilidad a las familias"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los enfoques estratégicos destacan la necesidad de políticas coherentes, planificación y coordinación entre sectores y niveles de gobierno."
+  },
+  {
+    "id": "ENF-02",
+    "pregunta": "¿A quiénes deben atender especialmente las estrategias inclusivas del ODS 4?",
+    "opciones": [
+      "Solo a quienes viven en capitales",
+      "A las personas que afrontan vulnerabilidad y barreras educativas",
+      "Únicamente al alumnado con mejores notas",
+      "Solo a la población adulta"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La equidad exige atender especialmente a las personas que sufren exclusión, marginación o desventajas, incluyendo personas con discapacidad, niñas y mujeres."
+  },
+  {
+    "id": "ENF-03",
+    "pregunta": "¿Qué establece la estrategia sobre el fortalecimiento de los sistemas educativos?",
+    "opciones": [
+      "Reducir la inversión pública en educación",
+      "Reforzar gobernanza, información, financiación transparente e innovación con TIC",
+      "Eliminar la rendición de cuentas",
+      "Priorizar únicamente la educación privada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El refuerzo de los sistemas educativos requiere gobernanza y rendición de cuentas adecuadas, sistemas de gestión e información, financiación transparente, innovación y uso de TIC."
+  },
+  {
+    "id": "ENF-04",
+    "pregunta": "¿Qué área de conocimiento se busca fortalecer específicamente para centrarse en la calidad y la innovación?",
+    "opciones": [
+      "Arte y música",
+      "Ciencias, tecnología, ingeniería y matemáticas (STEM)",
+      "Educación física",
+      "Idiomas clásicos"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Los enfoques estratégicos señalan la necesidad de fortalecer la educación en ciencias, tecnología, ingeniería y matemáticas (STEM) para centrarse en la calidad y la innovación."
+  },
+  {
+    "id": "ENF-05",
+    "pregunta": "¿Qué directrices internacionales deben guiar la educación en situaciones de emergencia?",
+    "opciones": [
+      "Las Normas Mínimas de la Red Interinstitucional para la Educación en Situaciones de Emergencia (INEE)",
+      "Los Objetivos de Desarrollo del Milenio",
+      "La Declaración de Jomtien",
+      "El Acuerdo de Mascate"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El ODS 4 establece que las Normas Mínimas de la INEE, junto con los principios de prevención, preparación y respuesta, deben guiar la planificación y respuesta educativa en emergencias."
+  }
+]

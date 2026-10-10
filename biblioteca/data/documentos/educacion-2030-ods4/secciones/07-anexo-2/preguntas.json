@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AN2-01",
+    "pregunta": "¿Cómo se describe el marco del Anexo II?",
+    "opciones": [
+      "Como un documento de trabajo con indicadores temáticos propuestos",
+      "Como una ley nacional definitiva",
+      "Como un listado de sanciones",
+      "Como un currículo de primaria"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Esa condición figura en el título del Anexo II."
+  },
+  {
+    "id": "AN2-02",
+    "pregunta": "¿Qué relación existe entre los indicadores temáticos y los mundiales?",
+    "opciones": [
+      "Los temáticos amplían los mundiales y algunos de ellos son a su vez indicadores mundiales",
+      "Los temáticos reemplazan a los mundiales",
+      "Los mundiales son solo para universidades",
+      "No tienen ninguna relación"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El Anexo II incluye indicadores temáticos y señala cuáles son también indicadores mundiales (marcados como 'Sí')."
+  },
+  {
+    "id": "AN2-03",
+    "pregunta": "¿Qué tipo de indicador temático corresponde a la Meta 4.a?",
+    "opciones": [
+      "Recursos y entorno",
+      "Solo financiación",
+      "Solo becas",
+      "Únicamente alfabetización"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.a del Anexo II agrupa indicadores de 'Recursos' (instalaciones y acceso) y 'Entorno' (violencia y ataques)."
+  }
+]

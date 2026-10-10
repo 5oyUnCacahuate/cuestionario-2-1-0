@@ -1,0 +1,33 @@
+[
+  {
+    "id": "IND-01",
+    "pregunta": "¿Cuántos niveles de indicadores propone el documento?",
+    "opciones": ["Dos", "Tres", "Cuatro", "Seis"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El texto enumera niveles mundial, temático, regional y nacional."
+  },
+  {
+    "id": "IND-02",
+    "pregunta": "¿Para qué deben servir los indicadores además de recopilar datos?",
+    "opciones": [
+      "Para orientar decisiones y políticas",
+      "Para sustituir la planificación",
+      "Para evitar comparar avances",
+      "Para eliminar evaluaciones nacionales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El seguimiento debe aportar evidencia útil para la toma de decisiones."
+  },
+  {
+    "id": "IND-03",
+    "pregunta": "¿Cuál de los siguientes es un criterio de los indicadores temáticos?",
+    "opciones": [
+      "Facilidad de comunicar a un público mundial",
+      "Exclusividad para un solo país",
+      "Ocultamiento de datos",
+      "Solo medir resultados financieros"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "Los indicadores temáticos se basan en pertinencia, alineamiento, posibilidad de recabar datos, facilidad de comunicación y claridad."
+  }
+]

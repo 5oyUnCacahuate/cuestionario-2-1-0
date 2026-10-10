@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M4A-01",
+    "pregunta": "¿Cómo deben ser los entornos de aprendizaje contemplados en la Meta 4.a?",
+    "opciones": [
+      "Seguros, no violentos, inclusivos y eficaces",
+      "Exclusivos y selectivos",
+      "Sin requisitos de accesibilidad",
+      "Solo digitales"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.a destaca entornos de aprendizaje seguros, no violentos, inclusivos y eficaces para todos."
+  },
+  {
+    "id": "M4A-02",
+    "pregunta": "¿Qué características de accesibilidad deben tener las instalaciones según la Meta 4.a?",
+    "opciones": [
+      "Solo para estudiantes sin discapacidad",
+      "Accesibilidad universal y perspectiva de género",
+      "Solo para zonas urbanas",
+      "Solo para niveles superiores"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.a establece que las instalaciones deben responder a las necesidades de los niños y las personas con discapacidad, considerando las cuestiones de género."
+  }
+]

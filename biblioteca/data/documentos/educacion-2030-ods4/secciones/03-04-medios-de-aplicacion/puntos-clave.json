@@ -1,0 +1,43 @@
+[
+  {
+    "titulo": "Enfoque general de los medios de aplicación",
+    "items": [
+      "Financiación suficiente, sostenible, transparente y eficaz.",
+      "Recursos nacionales fundamentales; cooperación internacional complementaria.",
+      "Asignación con criterios de equidad y atención a grupos desfavorecidos.",
+      "Fortalecimiento de capacidades y gobernanza."
+    ]
+  },
+  {
+    "titulo": "Meta 4.a — Instalaciones educativas",
+    "items": [
+      "Instalaciones accesibles, con perspectiva de género y de discapacidad.",
+      "Entornos seguros, no violentos, inclusivos y eficaces.",
+      "Agua, electricidad, servicios separados y aulas apropiadas.",
+      "Reparto equitativo de recursos entre escuelas.",
+      "Espacios para aprendizaje no formal y de adultos."
+    ]
+  },
+  {
+    "titulo": "Meta 4.b — Becas",
+    "items": [
+      "Aumentar becas para países en desarrollo.",
+      "Prioridad: PMA, pequeños Estados insulares y países africanos.",
+      "Áreas estratégicas: ciencias, tecnología, ingeniería, TIC.",
+      "Transparencia y atención a jóvenes desfavorecidos.",
+      "Becas STEM para niñas y mujeres.",
+      "Prevención de la fuga de cerebros."
+    ]
+  },
+  {
+    "titulo": "Meta 4.c — Docentes cualificados",
+    "items": [
+      "Aumentar la oferta de docentes calificados.",
+      "Formación inicial y continua de calidad.",
+      "Cooperación internacional para la formación docente.",
+      "Mejora de condiciones laborales y remuneración.",
+      "Docentes como clave del éxito del ODS 4.",
+      "Se requieren 3,2 millones de docentes adicionales para primaria y 5,1 millones para secundaria inicial."
+    ]
+  }
+]

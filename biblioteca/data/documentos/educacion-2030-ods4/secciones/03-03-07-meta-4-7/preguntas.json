@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M47-01",
+    "pregunta": "¿Cuál de estos temas aparece en la Meta 4.7?",
+    "opciones": [
+      "Derechos humanos y ciudadanía mundial",
+      "Solo contabilidad empresarial",
+      "Únicamente pruebas estandarizadas",
+      "Solo infraestructura escolar"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.7 incluye derechos humanos, ciudadanía mundial, paz, igualdad de género y sostenibilidad."
+  },
+  {
+    "id": "M47-02",
+    "pregunta": "¿Qué busca promover la Meta 4.7 además del desarrollo sostenible?",
+    "opciones": [
+      "Solo el aprendizaje de matemáticas",
+      "La cultura de paz, la no violencia y la valoración de la diversidad cultural",
+      "Únicamente la formación técnica",
+      "Solo la evaluación docente"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.7 incluye la promoción de una cultura de paz y no violencia, la ciudadanía mundial y la valoración de la diversidad cultural."
+  }
+]

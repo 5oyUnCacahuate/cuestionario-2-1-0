@@ -1,0 +1,28 @@
+[
+  {
+    "titulo": "Enunciado de la Meta 4.b",
+    "items": [
+      "Aumentar sustancialmente el número de becas.",
+      "Dirigidas a países en desarrollo.",
+      "Horizonte original: 2020."
+    ]
+  },
+  {
+    "titulo": "Países prioritarios",
+    "items": [
+      "Países menos adelantados.",
+      "Pequeños Estados insulares en desarrollo.",
+      "Países africanos."
+    ]
+  },
+  {
+    "titulo": "Áreas estratégicas de las becas",
+    "items": [
+      "Formación profesional.",
+      "Programas técnicos.",
+      "Ciencia.",
+      "Ingeniería.",
+      "Tecnología de la información y las comunicaciones (TIC)."
+    ]
+  }
+]

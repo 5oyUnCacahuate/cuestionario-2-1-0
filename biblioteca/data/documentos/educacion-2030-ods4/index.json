@@ -1,0 +1,42 @@
+{
+  "id": "educacion-2030-ods4",
+  "titulo": "Educación 2030: Declaración de Incheon",
+  "subtitulo": "Marco de Acción para la realización del ODS 4",
+  "fuente": "UNESCO · 2016",
+  "pdf": "https://drive.google.com/file/d/1Drofp0NrzUagK6LXkQ7-96u5_DZ12Zn_/view?usp=sharing",
+  "secciones": [
+    { "id": "00", "titulo": "Objetivo de Desarrollo Sostenible 4", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/00-ods4-y-metas" },
+    { "id": "01", "titulo": "Introducción", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/01-introduccion" },
+    { "id": "02", "titulo": "I. Visión, justificación y principios", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/02-vision-justificacion-principios" },
+
+    { "id": "03", "titulo": "II. Objetivo, enfoques estratégicos, metas e indicadores", "esTitulo": true },
+    { "id": "03.01", "titulo": "Objetivo global", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-01-objetivo-global" },
+    { "id": "03.02", "titulo": "Enfoques estratégicos", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-02-enfoques-estrategicos" },
+
+    { "id": "03.03", "titulo": "Metas y estrategias indicativas", "esTitulo": true },
+    { "id": "03.03.01", "titulo": "Meta 4.1", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-01-meta-4-1" },
+    { "id": "03.03.02", "titulo": "Meta 4.2", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-02-meta-4-2" },
+    { "id": "03.03.03", "titulo": "Meta 4.3", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-03-meta-4-3" },
+    { "id": "03.03.04", "titulo": "Meta 4.4", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-04-meta-4-4" },
+    { "id": "03.03.05", "titulo": "Meta 4.5", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-05-meta-4-5" },
+    { "id": "03.03.06", "titulo": "Meta 4.6", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-06-meta-4-6" },
+    { "id": "03.03.07", "titulo": "Meta 4.7", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-07-meta-4-7" },
+    { "id": "03.03.08", "titulo": "Meta 4.a", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-08-meta-4-a" },
+    { "id": "03.03.09", "titulo": "Meta 4.b", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-09-meta-4-b" },
+    { "id": "03.03.10", "titulo": "Meta 4.c", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-03-10-meta-4-c" },
+
+    { "id": "03.04", "titulo": "Medios de aplicación", "tabs": ["texto", "resumen"], "carpeta": "secciones/03-04-medios-de-aplicacion" },
+    { "id": "03.05", "titulo": "Indicadores", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/03-05-indicadores" },
+
+    { "id": "04", "titulo": "III. Modalidades de Aplicación", "esTitulo": true },
+    { "id": "04.01", "titulo": "Gobernanza, rendición de cuentas y alianzas", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/04-01-gobernanza" },
+    { "id": "04.02", "titulo": "Una coordinación eficaz", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/04-02-coordinacion-eficaz" },
+    { "id": "04.03", "titulo": "Supervisión, seguimiento y examen", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/04-03-supervision" },
+    { "id": "04.04", "titulo": "Financiación", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/04-04-financiacion" },
+    
+    { "id": "05", "titulo": "Conclusión", "tabs": ["texto", "resumen", "clave", "preguntas"], "carpeta": "secciones/05-conclusion" },
+    { "id": "06", "titulo": "Anexo I: Indicadores mundiales", "tabs": ["texto", "preguntas"], "carpeta": "secciones/06-anexo-1" },
+    { "id": "07", "titulo": "Anexo II: Marco de indicadores temáticos", "tabs": ["texto", "preguntas"], "carpeta": "secciones/07-anexo-2" },
+    { "id": "08", "titulo": "Notas finales", "tabs": ["texto"], "carpeta": "secciones/08-notas-finales" }
+  ]
+}

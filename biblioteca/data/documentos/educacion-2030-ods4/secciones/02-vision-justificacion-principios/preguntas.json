@@ -1,0 +1,62 @@
+[
+  {
+    "id": "VIS-01",
+    "pregunta": "¿Cómo caracteriza esta sección a la educación?",
+    "opciones": [
+      "Como un privilegio condicionado al ingreso económico",
+      "Como un derecho humano fundamental y un bien público",
+      "Como un servicio limitado únicamente a la infancia",
+      "Como una actividad exclusivamente económica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La sección establece expresamente que la educación es un derecho humano fundamental y un bien público, cuyo principal garante es el Estado."
+  },
+  {
+    "id": "VIS-02",
+    "pregunta": "¿Qué exige el principio de inclusión en el ODS 4-Educación 2030?",
+    "opciones": [
+      "Atender solo a quienes ya obtienen buenos resultados",
+      "Evitar reconocer las diferencias entre personas",
+      "Hacer frente a las barreras, exclusiones y desigualdades que impiden aprender",
+      "Uniformar todas las trayectorias educativas"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "La inclusión busca eliminar las barreras que impiden participar y aprender, y garantizar iguales oportunidades para todos, especialmente para las personas marginadas o en situación de vulnerabilidad."
+  },
+  {
+    "id": "VIS-03",
+    "pregunta": "¿Cuál es una de las principales novedades del ODS 4-Educación 2030 en comparación con los objetivos anteriores?",
+    "opciones": [
+      "Se limita únicamente a la educación primaria",
+      "Es exclusivo para países en desarrollo",
+      "Tiene carácter universal y pertenece tanto a países desarrollados como en desarrollo",
+      "Reemplaza completamente los sistemas educativos nacionales"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "Una de las novedades es que el ODS 4-Educación 2030 reviste carácter universal y pertenece al mundo entero, tanto a los países desarrollados como en desarrollo."
+  },
+  {
+    "id": "VIS-04",
+    "pregunta": "Según esta sección, ¿por qué es importante la educación para el desarrollo de las sociedades?",
+    "opciones": [
+      "Porque solo mejora los ingresos económicos individuales",
+      "Porque erradica la pobreza, promueve la igualdad de género, mejora la salud y contribuye a la paz",
+      "Porque reemplaza la necesidad de otros servicios sociales",
+      "Porque permite reducir el número de docentes necesarios"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La educación tiene múltiples beneficios: erradica la pobreza, promueve la igualdad entre hombres y mujeres, mejora la salud, protege a personas en crisis y contribuye a prevenir conflictos y promover la paz."
+  },
+  {
+    "id": "VIS-05",
+    "pregunta": "¿Cuál de los siguientes es uno de los principios fundamentales que sustentan el Marco de Acción?",
+    "opciones": [
+      "La educación debe ser un servicio exclusivamente privado",
+      "La educación es un bien público, cuyo principal garante es el Estado",
+      "La educación debe impartirse únicamente en un idioma oficial",
+      "La educación solo es obligatoria en el nivel superior"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Marco de Acción establece que la educación es un bien público, cuyo principal garante es el Estado, aunque la sociedad civil, docentes, familias y sector privado también cumplen funciones clave."
+  }
+]

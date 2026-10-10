@@ -1,0 +1,57 @@
+[
+  {
+    "id": "INTRO-01",
+    "pregunta": "¿En qué año se aprobó la Declaración de Incheon?",
+    "opciones": ["2014", "2015", "2016", "2017"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Declaración de Incheon fue aprobada el 21 de mayo de 2015 en el Foro Mundial sobre la Educación, celebrado en Incheon (República de Corea)."
+  },
+  {
+    "id": "INTRO-02",
+    "pregunta": "¿Cuál es el objetivo principal del ODS 4-Educación 2030?",
+    "opciones": [
+      "Reducir el número de docentes en todo el mundo",
+      "Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos",
+      "Uniformar los currículos de todos los países",
+      "Privatizar los sistemas educativos nacionales"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El ODS 4 busca garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos, en el marco de la Agenda 2030."
+  },
+  {
+    "id": "INTRO-03",
+    "pregunta": "¿Cuál fue el hito fundamental que sirvió de base para el objetivo mundial en materia de educación, aprobado en mayo de 2014?",
+    "opciones": [
+      "La Declaración de Jomtien",
+      "El Acuerdo de Mascate",
+      "La Declaración de París",
+      "El Acuerdo de Dakar"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Acuerdo de Mascate se aprobó en la Reunión Mundial sobre la EPT en mayo de 2014 y sirvió de base para el objetivo mundial en materia de educación, sus metas conexas y sus modalidades de aplicación."
+  },
+  {
+    "id": "INTRO-04",
+    "pregunta": "¿Cuántas secciones tiene el Marco de Acción y qué se describe en cada una?",
+    "opciones": [
+      "Dos: visión y metas",
+      "Tres: visión/principios, objetivo y metas/estrategias, y coordinación/financiación/seguimiento",
+      "Cuatro: introducción, metas, estrategias y anexos",
+      "Una sola: metas y estrategias"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El Marco de Acción tiene tres secciones: (I) visión, justificación y principios; (II) objetivo mundial, siete metas conexas y tres modalidades de aplicación; y (III) coordinación, gobernanza, seguimiento, financiación y alianzas."
+  },
+  {
+    "id": "INTRO-05",
+    "pregunta": "¿Cómo debe aplicarse la agenda Educación 2030 en cada país?",
+    "opciones": [
+      "De forma idéntica en todos los países, sin atender a contextos",
+      "Únicamente en zonas urbanas",
+      "Adaptándola a las realidades, capacidades y prioridades de cada país, manteniendo el compromiso común",
+      "Solo mediante proyectos privados"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El Marco de Acción plantea estrategias flexibles para que cada país adapte la agenda a sus realidades, capacidades y niveles de desarrollo, respetando las políticas y prioridades nacionales, sin perder el compromiso común."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "titulo": "Cuatro niveles de indicadores",
+    "items": [
+      "Mundiales: conjunto reducido y comparable globalmente.",
+      "Temáticos: conjunto más amplio propuesto por la comunidad educativa.",
+      "Regionales: contextualizan prioridades regionales.",
+      "Nacionales: adaptados a sistemas, planes y políticas de cada país."
+    ]
+  },
+  {
+    "titulo": "Criterios de los indicadores temáticos",
+    "items": [
+      "Pertinencia.",
+      "Alineamiento con los conceptos de la meta.",
+      "Posibilidad de recabar datos periódicamente.",
+      "Facilidad de comunicar a un público mundial.",
+      "Claridad."
+    ]
+  },
+  {
+    "titulo": "Desafíos del seguimiento",
+    "items": [
+      "Colmar brechas en la cuantificación de la equidad y la inclusión.",
+      "Desglosar datos por grupos de población y grupos vulnerables.",
+      "Reforzar capacidades nacionales de recopilación y uso de datos.",
+      "Medir calidad y resultados del aprendizaje."
+    ]
+  }
+]

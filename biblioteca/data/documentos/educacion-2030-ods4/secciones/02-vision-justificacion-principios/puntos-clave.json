@@ -1,0 +1,57 @@
+[
+  {
+    "id": "OBJ-01",
+    "pregunta": "¿Qué cuatro ideas aparecen en el objetivo global del ODS 4?",
+    "opciones": [
+      "Inclusión, equidad, calidad y aprendizaje a lo largo de la vida",
+      "Competencia, selección, privatización y evaluación",
+      "Escolarización, disciplina, uniformidad y rendimiento económico",
+      "Infraestructura, becas, exámenes y tecnología"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El objetivo global del ODS 4 integra cuatro ideas: inclusión, equidad, calidad y aprendizaje a lo largo de la vida."
+  },
+  {
+    "id": "OBJ-02",
+    "pregunta": "¿A qué duración mínima se refiere el ODS 4 para la educación primaria y secundaria?",
+    "opciones": ["6 años", "9 años", "12 años", "15 años"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El ODS 4 establece que la educación primaria y secundaria debe durar al menos 12 años, de los cuales al menos 9 de manera obligatoria."
+  },
+  {
+    "id": "OBJ-03",
+    "pregunta": "¿Cuál de los siguientes es un aspecto clave del ODS 4-Educación 2030 según esta sección?",
+    "opciones": [
+      "La educación debe ser exclusivamente privada",
+      "La equidad y la inclusión en la educación y mediante ella",
+      "Solo debe priorizarse la educación superior",
+      "La educación debe limitarse a la etapa escolar"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "Uno de los aspectos clave es garantizar la equidad y la inclusión en la educación y mediante ella, haciendo frente a todas las formas de exclusión y marginación."
+  },
+  {
+    "id": "OBJ-04",
+    "pregunta": "¿Qué competencias básicas menciona el ODS 4 como pilares para el aprendizaje futuro?",
+    "opciones": [
+      "Ciencias, historia y geografía",
+      "Lectura, escritura y cálculo",
+      "Arte, música y deporte",
+      "Programación y robótica"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El ODS 4 destaca que los alumnos adquieran competencias básicas de lectura, escritura y cálculo, que serán los pilares para el aprendizaje futuro."
+  },
+  {
+    "id": "OBJ-05",
+    "pregunta": "¿Qué caracteriza al concepto de aprendizaje a lo largo de la vida según el ODS 4?",
+    "opciones": [
+      "Se limita únicamente a la educación formal",
+      "Comienza al ingresar a la escuela y termina al egresar",
+      "Comienza con el nacimiento y continúa durante toda la vida, incluyendo medios formales, no formales e informales",
+      "Solo aplica para adultos mayores"
+    ],
+    "respuestaCorrecta": 2,
+    "explicacion": "El ODS 4 establece que el derecho a la educación comienza con el nacimiento y continúa a lo largo de la vida, con oportunidades por medios formales, no formales e informales."
+  }
+]

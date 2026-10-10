@@ -1,0 +1,26 @@
+[
+  {
+    "id": "M4C-01",
+    "pregunta": "¿Qué busca aumentar la Meta 4.c?",
+    "opciones": [
+      "La oferta de maestros cualificados",
+      "El número de indicadores mundiales",
+      "La duración de las vacaciones escolares",
+      "El número de exámenes"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.c se refiere a aumentar sustancialmente la oferta de docentes cualificados, especialmente en países en desarrollo."
+  },
+  {
+    "id": "M4C-02",
+    "pregunta": "¿Qué mecanismos menciona la Meta 4.c para fortalecer la formación docente?",
+    "opciones": [
+      "Solo recursos nacionales",
+      "La cooperación internacional para la formación de docentes",
+      "Solo plataformas virtuales",
+      "Únicamente programas privados"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.c menciona explícitamente la cooperación internacional para la formación de docentes en los países en desarrollo."
+  }
+]

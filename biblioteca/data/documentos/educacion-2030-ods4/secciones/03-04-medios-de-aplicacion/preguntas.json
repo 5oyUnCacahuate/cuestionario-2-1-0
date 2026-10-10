@@ -1,0 +1,33 @@
+[
+  {
+    "id": "MA-01",
+    "pregunta": "¿Qué características debe tener la financiación educativa?",
+    "opciones": [
+      "Suficiente, sostenible, transparente y eficaz",
+      "Temporal y sin rendición de cuentas",
+      "Exclusivamente externa",
+      "Igual para todos los contextos sin atender necesidades"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "El marco insiste en suficiencia, sostenibilidad, transparencia y eficacia."
+  },
+  {
+    "id": "MA-02",
+    "pregunta": "¿Cómo se considera la cooperación internacional en relación con la financiación?",
+    "opciones": [
+      "Debe reemplazar toda financiación nacional",
+      "Puede complementar los esfuerzos nacionales",
+      "No tiene ninguna función",
+      "Solo debe financiar educación privada"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La financiación nacional es esencial y la cooperación puede complementarla."
+  },
+  {
+    "id": "MA-03",
+    "pregunta": "¿Cuántos docentes adicionales se requerirán de aquí a 2030 para la universalidad de la educación primaria?",
+    "opciones": ["1,2 millones", "3,2 millones", "5,1 millones", "10 millones"],
+    "respuestaCorrecta": 1,
+    "explicacion": "El texto señala que se requerirán 3,2 millones de docentes adicionales para la educación primaria y 5,1 millones para el ciclo inicial de secundaria."
+  }
+]

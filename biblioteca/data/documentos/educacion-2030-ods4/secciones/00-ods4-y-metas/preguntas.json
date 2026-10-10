@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ODS4-01",
+    "pregunta": "¿Cuál es el enunciado central del Objetivo de Desarrollo Sostenible 4?",
+    "opciones": [
+      "Aumentar únicamente la educación universitaria en el mundo",
+      "Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje permanente para todos",
+      "Sustituir la educación pública por formación privada",
+      "Limitar la educación a la etapa escolar"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El enunciado global del ODS 4 es 'Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje permanente para todos'."
+  },
+  {
+    "id": "ODS4-02",
+    "pregunta": "¿Cuál es el horizonte temporal que aparece en la mayoría de las metas del ODS 4?",
+    "opciones": ["2025", "2030", "2040", "2050"],
+    "respuestaCorrecta": 1,
+    "explicacion": "Las metas del ODS 4 están formuladas principalmente con horizonte 'de aquí a 2030'. La única excepción es la meta 4.b (becas), cuyo horizonte es 2020."
+  },
+  {
+    "id": "ODS4-03",
+    "pregunta": "¿Cuántas metas específicas componen el ODS 4?",
+    "opciones": ["5 metas", "7 metas", "10 metas", "12 metas"],
+    "respuestaCorrecta": 2,
+    "explicacion": "El ODS 4 está compuesto por 10 metas: 7 metas de resultados educativos (4.1 a 4.7) y 3 metas de medios de aplicación (4.a, 4.b y 4.c)."
+  },
+  {
+    "id": "ODS4-04",
+    "pregunta": "¿Cuál de las siguientes metas del ODS 4 corresponde a un medio de aplicación?",
+    "opciones": [
+      "Meta 4.1: Conclusión de primaria y secundaria",
+      "Meta 4.5: Igualdad de género e inclusión",
+      "Meta 4.7: Educación para el desarrollo sostenible",
+      "Meta 4.c: Formación de docentes calificados"
+    ],
+    "respuestaCorrecta": 3,
+    "explicacion": "Las metas 4.a, 4.b y 4.c son medios de aplicación. Las metas 4.1 a 4.7 son metas de resultados educativos."
+  },
+  {
+    "id": "ODS4-05",
+    "pregunta": "¿Qué busca específicamente la meta 4.5 del ODS 4?",
+    "opciones": [
+      "Aumentar la oferta de docentes en todo el mundo",
+      "Eliminar las disparidades de género y garantizar el acceso igualitario de las personas vulnerables a todos los niveles educativos",
+      "Construir instalaciones escolares seguras",
+      "Aumentar el número de becas internacionales"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La meta 4.5 busca eliminar las disparidades de género en la educación y garantizar el acceso en condiciones de igualdad de las personas vulnerables, incluidas las personas con discapacidad, los pueblos indígenas y los niños en situaciones de vulnerabilidad."
+  }
+]

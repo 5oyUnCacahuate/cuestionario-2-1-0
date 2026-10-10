@@ -1,0 +1,45 @@
+[
+  {
+    "id": "CCE-01",
+    "pregunta": "¿Qué busca una coordinación eficaz entre instituciones?",
+    "opciones": [
+      "Duplicar programas",
+      "Aprovechar complementariedades y evitar duplicaciones",
+      "Eliminar el intercambio de información",
+      "Centralizar todas las decisiones en una sola escuela"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "La coordinación permite usar mejor los esfuerzos y recursos."
+  },
+  {
+    "id": "CCE-02",
+    "pregunta": "¿Qué función destaca el documento para la UNESCO?",
+    "opciones": [
+      "Coordinar la cooperación mundial en educación dentro de su mandato",
+      "Administrar directamente todas las escuelas",
+      "Sustituir a los ministerios nacionales",
+      "Financiar por sí sola todas las metas"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La UNESCO desempeña una función coordinadora junto con otros actores."
+  },
+  {
+    "id": "CCE-03",
+    "pregunta": "¿Con qué periodicidad se reúne como mínimo el Comité de Dirección del ODS-Educación 2030?",
+    "opciones": [
+      "Cada cinco años",
+      "Por lo menos una vez al año",
+      "Solo cuando lo solicita un Estado Miembro",
+      "Nunca se reúne"
+    ],
+    "respuestaCorrecta": 1,
+    "explicacion": "El texto indica que el Comité de Dirección del ODS-Educación 2030 se reúne por lo menos una vez al año."
+  },
+  {
+    "id": "CCE-04",
+    "pregunta": "¿Qué organismo desempeña las funciones de secretaría del Comité de Dirección del ODS-Educación 2030?",
+    "opciones": ["UNICEF", "Banco Mundial", "UNESCO", "OCDE"],
+    "respuestaCorrecta": 2,
+    "explicacion": "La UNESCO desempeña las funciones de secretaría del Comité de Dirección del ODS-Educación 2030."
+  }
+]

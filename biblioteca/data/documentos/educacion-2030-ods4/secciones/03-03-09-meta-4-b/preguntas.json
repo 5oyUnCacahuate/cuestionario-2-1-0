@@ -1,0 +1,21 @@
+[
+  {
+    "id": "M4B-01",
+    "pregunta": "¿Qué medio de aplicación aborda la Meta 4.b?",
+    "opciones": [
+      "Becas para estudiantes de países en desarrollo",
+      "Evaluación docente anual",
+      "Construcción de escuelas únicamente",
+      "Alfabetización de adultos"
+    ],
+    "respuestaCorrecta": 0,
+    "explicacion": "La Meta 4.b trata de aumentar el número de becas disponibles para estudiantes de países en desarrollo."
+  },
+  {
+    "id": "M4B-02",
+    "pregunta": "¿Cuál era el horizonte temporal original de la Meta 4.b?",
+    "opciones": ["2015", "2020", "2025", "2030"],
+    "respuestaCorrecta": 1,
+    "explicacion": "La Meta 4.b tenía un horizonte original de 2020, a diferencia de la mayoría de las metas del ODS 4, que apuntan a 2030."
+  }
+]
