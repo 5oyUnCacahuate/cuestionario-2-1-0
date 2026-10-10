@@ -419,7 +419,8 @@ function prepararTextoParaTTS(texto) {
     if (parrafo.length <= 200) {
       chunks.push(parrafo);
     } else {
-      const oraciones = parrafo.split(/(?<=[.!?])\s+/);
+      // ✅ Versión sin lookbehind (compatible con todo)
+      const oraciones = parrafo.match(/[^.!?]+[.!?]+/g) || [parrafo];
       let actual = "";
       oraciones.forEach((o) => {
         if ((actual + " " + o).trim().length > 200) {
